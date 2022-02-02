@@ -1,0 +1,21 @@
+
+.navbar_container{
+    background-color: darkblue;
+    grid-area: SideBar;
+    display: flex;
+    /* justify-content: center; */
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100%;
+}
+.navbarItem{
+    list-style-type: none;
+}
+.navbarItem a{
+    color: #61dafb;
+    text-decoration: none;
+}
